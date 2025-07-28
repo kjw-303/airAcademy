@@ -1,0 +1,111 @@
+/* dortmund? 폰트 */
+@font-face {
+  font-family: "dortmund";
+  font-style: normal;
+  font-weight: 900;
+  src: local("☺"), url("/src/assets/font/dortmund-extrabold.otf") format("opentype");
+}
+/* pretendard */
+@font-face {
+  font-family: "Pretendard";
+  src: url("/src/assets/font/Pretendard-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pretendard";
+  src: url("/src//assets/font/Pretendard-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pretendard";
+  src: url("/src//assets/font/Pretendard-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pretendard";
+  src: url("/src//assets/font/Pretendard-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pretendard";
+  src: url("/src//assets/font/Pretendard-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pretendard";
+  src: url("/src/assets/font/Pretendard-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pretendard";
+  src: url("/src/assets/font/Pretendard-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pretendard";
+  src: url("/src/assets/font/Pretendard-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pretendard";
+  src: url("/src/assets/font/Pretendard-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+/* codec */
+@font-face {
+  font-family: "Codec-Cold-Thin-trial";
+  src: url("/src/assets/font/Codec-Cold-Thin-trial.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Codec-Cold-Extralight-trial";
+  src: url("/src/assets/font/Codec-Cold-Extralight-trial.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Codec-Cold-Light-trial";
+  src: url("/src/assets/font/Codec-Cold-Light-trial.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Codec-Cold-News-trial";
+  src: url("/src/assets/font/Codec-Cold-News-trial.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Codec-Cold-Regular-trial";
+  src: url("/src/assets/font/Codec-Cold-Regular-trial.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Codec-Cold-Bold-trial";
+  src: url("/src/assets/font/Codec-Cold-Bold-trial.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Codec-Cold-ExtraBold-trial";
+  src: url("/src/assets/font/Codec-Cold-ExtraBold-trial.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Codec-Cold-Heavy-trial";
+  src: url("/src/assets/font/Codec-Cold-Heavy-trial.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
