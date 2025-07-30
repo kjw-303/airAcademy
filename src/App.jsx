@@ -44,7 +44,7 @@ function App() {
       <ReviewSlider/>
       {/* 시설 사진 */}
       <div className="main">
-      <Facility/>
+      <Facility isMain={true}/>
       </div>
       {/* 푸터 */}
       <Footer/>

@@ -34,7 +34,7 @@ const facilityImages = [
   facImage13,
 ];
 
-const FacilitySlider = () => {
+const FacilitySlider = ({isMain = false}) => {
   const swiperRef = useRef(null);
 
   const handleInit = (swiper) => {
@@ -65,6 +65,7 @@ const FacilitySlider = () => {
   return (
     <section className="section fac-slider">
       {/* 상단 텍스트 */}
+       {!isMain && (
       <div className="title-box sub">
         <h2>Airport Motive</h2>
         <p>
@@ -72,6 +73,7 @@ const FacilitySlider = () => {
           사용하실 수 있습니다.
         </p>
       </div>
+      )}
 
       {/* 슬라이드 영역 */}
       <div className="cont-box facSwiper">
@@ -105,6 +107,7 @@ const FacilitySlider = () => {
       </div>
 
       {/* 하단 텍스트 */}
+      {isMain && (
       <div className="title-box main">
         <h2>Airport Motive</h2>
         <p>
@@ -121,6 +124,7 @@ const FacilitySlider = () => {
           <li>수강생의 편의를 위한 스카이 라운지와 테라스</li>
         </ul>
       </div>
+      )}
     </section>
   );
 };

@@ -232,8 +232,6 @@
 .fac-slider .swiper-slide-active .bg {opacity:0; transition:0.5s; transition-delay:0.4s;}
 .fac-slider .title-box.sub{align-items: flex-start;}
 .fac-slider .title-box.main{text-align:right; margin-bottom:10rem; display:none;}
-.main .fac-slider .title-box.sub{display:none;}
-.main .fac-slider .title-box.main{display:block;}
 
 
 /*animation*/
