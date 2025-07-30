@@ -2,23 +2,36 @@ import React, { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
+import facImage1 from "../../assets/img/fac_main_img01.jpg";
+import facImage2 from "../../assets/img/fac_main_img02.jpg";
+import facImage3 from "../../assets/img/fac_main_img03.jpg";
+import facImage4 from "../../assets/img/fac_main_img04.jpg";
+import facImage5 from "../../assets/img/fac_main_img05.jpg";
+import facImage6 from "../../assets/img/fac_main_img06.jpg";
+import facImage7 from "../../assets/img/fac_main_img07.jpg";
+import facImage8 from "../../assets/img/fac_main_img08.jpg";
+import facImage9 from "../../assets/img/fac_main_img09.jpg";
+import facImage10 from "../../assets/img/fac_main_img10.jpg";
+import facImage11 from "../../assets/img/fac_main_img11.jpg";
+import facImage12 from "../../assets/img/fac_main_img12.jpg";
+import facImage13 from "../../assets/img/fac_main_img13.jpg";
 import "../../assets/css/main.css";
 
 // 슬라이드 이미지 배열
 const facilityImages = [
-  "/src/assets/img/fac_main_img01.jpg",
-  "/src/assets/img/fac_main_img02.jpg",
-  "/src/assets/img/fac_main_img03.jpg",
-  "/src/assets/img/fac_main_img04.jpg",
-  "/src/assets/img/fac_main_img05.jpg",
-  "/src/assets/img/fac_main_img06.jpg",
-  "/src/assets/img/fac_main_img07.jpg",
-  "/src/assets/img/fac_main_img08.jpg",
-  "/src/assets/img/fac_main_img09.jpg",
-  "/src/assets/img/fac_main_img10.jpg",
-  "/src/assets/img/fac_main_img11.jpg",
-  "/src/assets/img/fac_main_img12.jpg",
-  "/src/assets/img/fac_main_img13.jpg",
+  facImage1,
+  facImage2,
+  facImage3,
+  facImage4,
+  facImage5,
+  facImage6,
+  facImage7,
+  facImage8,
+  facImage9,
+  facImage10,
+  facImage11,
+  facImage12,
+  facImage13,
 ];
 
 const FacilitySlider = () => {
