@@ -4,8 +4,10 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/autoplay";
 import { Autoplay } from "swiper/modules";
-
 import "../../assets/css/main.css"; // 기존 CSS 연결
+import imgKorean from "../../assets/img/logo/img_logo_korean.png";
+import imgCathay from "../../assets/img/logo/img_logo_cathay.png";
+import imgEmirates from "../../assets/img/logo/img_logo_emirates.png";
 
 // 강사 데이터 (나중에 API나 JSON으로도 분리 가능)
 const teachers = [
@@ -14,7 +16,7 @@ const teachers = [
     name: "양은경",
     job: "강사님",
     description: "대한항공 객실훈련원\n최연소 교육강사 출신\n실무면접관",
-    logo: "/src/assets/img/logo/img_logo_korean.png",
+    logo: imgKorean,
     logoAlt: "korean air",
   },
   {
@@ -22,7 +24,7 @@ const teachers = [
     name: "이효정",
     job: "강사님",
     description: "케세이퍼시픽항공사\n객실승무원 경력 31년",
-    logo: "/src/assets/img/logo/img_logo_cathay.png",
+    logo: imgCathay,
     logoAlt: "cathay pacific",
   },
   {
@@ -30,7 +32,7 @@ const teachers = [
     name: "신해리",
     job: "강사님",
     description: "대한항공\n아시아나 승무원\n최다 합격생 배출",
-    logo: "/src/assets/img/logo/img_logo_korean.png",
+    logo: imgKorean,
     logoAlt: "koreann air",
   },
   {
@@ -38,7 +40,7 @@ const teachers = [
     name: "심유란",
     job: "강사님",
     description: "에메레이트항공\n사무장",
-    logo: "/src/assets/img/logo/img_logo_emirates.png",
+    logo: imgEmirates,
     logoAlt: "emirates",
   },
   {
@@ -46,7 +48,7 @@ const teachers = [
     name: "한경주",
     job: "강사님",
     description: "주요대학 항공과\n최다 합격생 배출",
-    logo: "/src/assets/img/logo/img_logo_korean.png",
+    logo: imgKorean,
     logoAlt: "koreann air",
   },
   {
@@ -54,7 +56,7 @@ const teachers = [
     name: "정은영",
     job: "강사님",
     description: "대한항공 객실승무원\n15년 경력",
-    logo: "/src/assets/img/logo/img_logo_korean.png",
+    logo: imgKorean,
     logoAlt: "koreann air",
   },
   {
@@ -62,7 +64,7 @@ const teachers = [
     name: "임현선",
     job: "강사님",
     description: "외항사 취업전략과\n실전 1:1피드백\n전문 강사",
-    logo: "/src/assets/img/logo/img_logo_emirates.png",
+    logo: imgEmirates,
     logoAlt: "emirates",
   },
   {
@@ -70,7 +72,7 @@ const teachers = [
     name: "임선경",
     job: "강사님",
     description: "각 항공사 분석 및\n이미지메이킹\n전문 강사",
-    logo: "/src/assets/img/logo/img_logo_korean.png",
+    logo: imgKorean,
     logoAlt: "koreann air",
   },
   {
@@ -78,7 +80,7 @@ const teachers = [
     name: "장효주",
     job: "강사님",
     description: "영어인터뷰 및\n영어자문읽기\n전문 강사",
-    logo: "/src/assets/img/logo/img_logo_korean.png",
+    logo: imgKorean,
     logoAlt: "koreann air",
   },
 ];
