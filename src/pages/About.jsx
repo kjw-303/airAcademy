@@ -6,6 +6,7 @@ import "../assets/css/sub.css";
 import TeacherSlider from "../components/common/TeacherSlider";
 import Facility from "../components/common/Facility";
 import Footer from "../components/common/Footer";
+import TuitionForm from "../components/common/TuitionForm";
 
 export const About = () => {
   return (
@@ -74,13 +75,15 @@ export const About = () => {
               <img src={arrowImg} alt="화살표" />
             </div>
           </div>
-          <div class="img"><img src={thumImg} alt="항공운항" /></div>
+          <div className="img"><img src={thumImg} alt="항공운항" /></div>
         </div>
         {/* 강사진 슬라이더 */}
         <TeacherSlider />
         {/* 시설 사진 */}
         <div className="main">
         <Facility isMain={false}/>
+        {/* 수강료 조회 */}
+        <TuitionForm/>
         </div>
       </div>
     </div>

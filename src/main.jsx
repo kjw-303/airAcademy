@@ -4,6 +4,7 @@ import App from "./App.jsx";
 import About from "./pages/About.jsx";
 import "./index.css";
 import "./assets/css/responsive.css";
+import "./assets/css/common.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 

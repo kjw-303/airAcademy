@@ -1,0 +1,196 @@
+/* sub tuition */
+.container-tuition {width:96rem; margin:10rem auto 14rem;}
+.container-tuition .mainTit-wr h3 {font-size:4.8rem; font-family: 'Codec-Cold-Heavy-trial';}
+.container-tuition .select-wr h5 {font-size:2.1rem; color:#666;}
+.container-tuition .tuition-section {margin-top:5rem;}
+.tui-tit-point {margin-bottom:1.5rem; font-size:1.4rem; color:#051866;}
+.tuition-section {display: flex; justify-content: center; width:100%;}
+.tuition-section h6 {font-weight: 500;}
+.tuition-section .tuitionTap {display:flex; flex-wrap: wrap; gap:10px; margin: 0 0 25px;}
+.tuition-section .tuitionTap li a {display: flex;width:19rem;height:6.4rem;margin:0;text-align:center;border-radius:1.2rem;font-size:1.6rem; color:#282828; background: #eaeaea;outline: none;align-items: center;justify-content: center;}
+.tuition-section .tuitionTap li.active a {background:#57bbeb; color:#051766;}
+.tuition-section .select-wr {width: 70%; padding-top: 10px; padding-right: 40px;position: relative;}
+.tuition-section .tuitionCont li {width:50%;}
+.tuition-section .tuitionCont-ncs {display:flex !important;    flex-wrap: wrap;}
+.tuition-section .tuitionCont-ncs li {width:50%; padding: 20px; border-bottom:1px solid #ddd;}
+.tuition-section .tuitionCont-ncs li:last-child{border:0px;}
+.tuitionCont-ncs{padding:0 20px; border:1px solid #ddd; border-radius:7px;}
+.tuition-section .write-wr {flex:1;}
+.tuition-section .write-form > li {width: 100%;}
+.tuition-section .write-form > li + li{margin-top:30px;}
+.tuition-section .write-form > li + li .point-tit {margin-bottom:10px;}
+.tuition-section .write-wr li h6 {padding-top: 0; border: none;}
+.tuition-section .btn-input-wrap input + label {height: 43px; border-radius: 7px; font-size: 15px;}
+.tuition-section .tuitionLoc {padding-bottom: 15px;}
+.tuition-section .input-field {width: 100%; padding: 0px 0 0px;}
+.tuition-section .tui-control {width:64rem; flex:0 0 auto;}
+.tuitionQuick .tuition-section .input-field .tuitionTel select {width: 28%;}
+.tuitionQuick .tuition-section .input-field input[type='tel'] {width: 32%;}
+.tuitionQuick .tuition-section .input-field input[type='text'] {width: 100%; max-width: none;}
+.tuition-section .tuitionTel {display: flex; align-items: center; width: 100%;}
+.tuition-section .tuitionTel span {width: 4%; text-align: center;}
+.tuition-section .privacyTxt {height: 88px;}
+.tuition-section .input-field {margin-bottom:1rem;}
+.tuition-section .telForm {display:flex; color:#333;}
+.tuition-section .btn-wrap {margin-top:2rem;}
+.tuition-section .btn-wrap button {height:4.4rem; line-height:4.4rem; border:0; border-radius:1.2rem; background:#07206e; color:#fff;}
+.tuitionTap-notice {
+margin-bottom : 10px;
+}
+.tuitionCont.on {display: flex; flex-wrap:wrap; padding-bottom: 15px;}
+.tuitionCont li {display: flex; width: 25%; padding: 6px 0;align-items: center;}
+.tuitionCont.col2 li {width: 50%;}
+.tuitionCont.col3 li {width: 33.33%;}
+.tuitionCont.col4 li {width: 25%;}
+.tuitionCont.col5 li {width: 20%;}
+.tuitionCont.col6 li {width: 16.66%;}
+.tuitionCont.col7 li {width: 14.28%;}
+.tuitionCont.col8 li {width: 12.5%;}
+.tuitionCont input {margin-top: 3px;}
+.tuitionCont input[type='radio'] {margin-top: 0;}
+.tuitionCont input + label {display: inline-block; width: calc(100% - 22px); margin-top: 3px; padding-left: 5px; padding-right: 5px; font-size:1.5rem; color:#282828; cursor: pointer; transition: all 0.1s; vertical-align: 4px;}
+.tuition-section-notice .tuitionTap li {background: transparent;}
+.tuition-section-notice .tuitionTap li a {color: #0070f0; font-weight: 600; font-size:1.8rem;}
+.tuitionHope {display:flex; flex-wrap:wrap; gap:10px;}
+.tuitionHope li {display:inline-flex; align-items:center; height:3.9rem; padding:0 2rem;  color:#051866; background:#57bbeb; border-radius:19.5px;}
+.tuitionHope li .delete {display:inline-block; width:1.2rem; height:1.2rem; margin-left:1rem; background:url('/src/assets/img/icon_check_black.png') center center no-repeat;}
+.tui-local-check {display:flex; flex-wrap:wrap; gap:10px;}
+.tui-local-check li label {display:block; width:15.5rem; height:4.4rem; line-height:4.4rem; text-align:center; font-size:1.6rem; background:#eaeaea; border-radius:1.2rem; margin-left:0;}
+.tui-local-check li input[type='radio']:checked + label {color:#051766; background:#57bbeb;}
+.tui-local-check li input[type='radio']:checked:after {display:none;}
+.tui-local-check li input[type='radio'] {display:none;}
+
+input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date],
+input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search] {font-size: 13px; padding-left: 5px;}
+
+input[type='textarea'], textarea {width:100%; font-size:13px; margin:0; border:1px solid #ddd; color:#333; background:#fff; padding:5px; vertical-align: middle;}
+input[type='checkbox'] {flex:0 0 auto;background:url('/src/assets/img/icon_radio_false.png') no-repeat center / cover;height:24px;width:24px;cursor:pointer;vertical-align:middle;-webkit-appearance:none;-webkit-border-radius:3px;padding:0;border:0 0/IE8+9;margin-top:0;margin-top:2px 0/IE8+9;}
+input[type='checkbox']:checked {background:url('/src/assets/img/icon_radio_true.png') no-repeat center / cover;}
+
+/* CheckBox Style 빨간사각*/
+input[type="checkbox"].redRec {
+display:inline-block;
+width:18px;
+height:18px;
+vertical-align:middle;
+background:#fff;
+appearance: none;
+-moz-appearance: none; /* Firefox */
+-webkit-appearance: none; /* Safari and Chrome */
+border:1px solid #ccc;
+}
+
+input[type="checkbox"].redRec:checked {
+display:inline-block;
+width:18px;
+height:18px;
+vertical-align:middle;
+background:url("/mobile/renewal/img/common/checkbox_checked.png");
+background-size:100%;
+background-repeat:no-repeat;
+background-position:center center;
+appearance: none;
+-moz-appearance: none; /* Firefox */
+-webkit-appearance: none; /* Safari and Chrome */
+border:none;
+}
+
+
+/* SelectBox Style */
+select {height:44px; font-size:15px; margin:0; color:#333; background:none; padding-left:5px; vertical-align:middle; min-width:89px; box-sizing:border-box; border:1px solid #e4e4e4; font-family: inherit; border-radius: 12px; outline:none;}
+
+/* SelectBox Style */
+/* select {height:40px; font-size:10pt; margin:0; color:#353535; padding-left:8px; padding-right:30px; vertical-align: middle; min-width:40px; box-sizing:border-box;
+background: url("/mobile/renewal/img/common/select_arrow.png") no-repeat right center; 네이티브 화살표 대체  
+background-size:auto 100%;
+border:1px solid #c6c6c6;
+font-family: inherit;  폰트 상속
+border-radius: 0px; iOS 둥근모서리 제거
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+} */
+
+
+input[type='text'], input[type='password'], input[type='name'], input[type='tel'], input[type='search'] {
+height:44px; font-size:15px; margin:0; color:#333; background:#fff; padding:0 5px; vertical-align: middle; width:100%; box-sizing:border-box;
+background-size:auto 100%;
+border:1px solid #e4e4e4; 
+font-family: inherit;  /* 폰트 상속 */
+border-radius: 0px; /* iOS 둥근모서리 제거 */
+-webkit-appearance: none; /* 네이티브 외형 감추기 */
+-moz-appearance: none;
+appearance: none;
+border-radius:12px;
+outline:none;
+}
+input[type='text']::placeholder,input[type='password']::placeholder {color:rgba(40, 40, 40, .3);}
+
+input.fullwidth {width:288px;}
+input.halfwidth {width:210px;}
+span.telBar {display:inline-block; width:26px; vertical-align:middle; text-align:center; font-size:30px; margin-top:-5px; color:#797979;}
+
+textarea {
+color:#353535;
+box-sizing:border-box;
+border:1px solid #c6c6c6;
+font-family: inherit;  /* 폰트 상속 */
+border-radius: 0px; /* iOS 둥근모서리 제거 */
+-webkit-appearance: none; /* 네이티브 외형 감추기 */
+-moz-appearance: none;
+appearance: none;
+padding:10px;
+}
+
+/* 수강료조회 */
+.tuitionTable {width:100%; font-size:15px; border-top:2px solid #061b6a;}
+.tuitionTable tr {}
+.tuitionTable tr th {line-height:1.4em; padding:16px 18px; height:62px; background:#57bbeb; color:#333; font-size:15px; font-weight:400; border-right:solid 1px #333;}
+.tuitionTable tr th:last-child {border-right:0;}
+.tuitionTable tr td {line-height:1.4em; padding:16px 18px; height:62px; font-size:15px;}
+.tuitionTable.tuitionInfo tr td {border-right:solid 1px #333; border-top:solid 1px #333;}
+.tuitionTable tr td:last-child {border-right:0;}
+.tuitionTable tr:last-child td {border-bottom:solid 1px #333;}
+.tuitionTable tr td ul {display:inline-block; width:100%;}
+.tuitionTable tr td ul li {display:inline-block; float:left; padding:5px 0; width:100%; position:relative;}
+.tuitionTable tr td ul.col10 li {width:10%;}
+.tuitionTable tr td ul.col8 li {width:12.5%;}
+.tuitionTable tr td ul.col6 li {width:16.6666666666%;}
+.tuitionTable tr td ul.col5 li {width:20%;}
+.tuitionTable tr td ul.col4 li {width:25%;}
+.tuitionTable tr td ul.col3 li {width:33.3333333333%;}
+.tuitionTable tr td ul.col2 li {width:50%;}
+.tuitionTable tr td ul.col1 li {width:100%;}
+
+.tuitionDesc {font-size:15px; color:#2e3138; letter-spacing:-0.075em; line-height:20px; font-weight:300; padding-top:25px;}
+
+.tuitionBtn {text-align:center; padding:40px 0;}
+.btnType01 {
+	display:block;
+	height: 5.4rem;
+    line-height: 5.4rem;
+    border: 0;
+    border-radius: 1.2rem;
+    background: #07206e;
+    color: #fff;
+	font-size:1.6rem;
+	text-align:center;
+    font-weight: 400;
+}
+
+.privacyTxt {width:100%; height:92px; overflow-y:scroll; border:1px solid #ddd; color:#2e3138; padding:10px; line-height:1.5; background:#fff; letter-spacing:-0.075em; font-size:12px; line-height:17px;}
+.privacyTxt h6 {font-size:12px;}
+.privacyAgree {margin-top:20px; text-align:right;}
+.privacyAgree label {color:#626262; font-weight:300; font-size:1.4rem; margin-left:0;}
+.privacyTable {text-align:center;word-break: break-all;margin-top: 7px;}
+.privacyTable th, .privacyTable td {padding: 5px;border: solid 1px #ddd;}
+.privacyAgree details {font-size:1.1rem;margin-top:5px;color: #666;}
+.privacyAgree summary {position:relative;padding-right:15px; list-style:none;cursor:pointer;}
+.privacyAgree details .wrap {display:flex;}
+.privacyAgree details .arrow {content: ""; display:block; width:7px; height: 7px; background: url(/img/common/icon-slider-next-gr.png) center center / contain no-repeat;position:absolute;right:0;top:4.5px;}
+.privacyAgree details[open] .arrow {transform:rotate(90deg);}
+#ex1.modal {height:300px;}
+.currituitionPrvcy {height:98%;}
+.privacyTxt {height:85%;}
+.privacyAgree u {margin-left:5px; text-decoration:none;}
+.icHot {vertical-align: middle; padding-left: 10px;}
