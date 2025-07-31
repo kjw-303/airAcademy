@@ -15,7 +15,7 @@ function App() {
 
   return (
     <>
-      <GNB isLogin={false} activeCampus="gangnam" />
+      <GNB isLogin={false} activeCampus="gangnam"/>
       <MainBanner/>
       <QuickMenu />
       <section className="section main-review">

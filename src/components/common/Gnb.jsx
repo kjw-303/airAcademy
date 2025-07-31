@@ -6,6 +6,7 @@ import MobileNav from "./MobileNav";
 
 const GNB = ({ isLogin = false, activeCampus = "gangnam" }) => {
   const [openMenu, setOpenMenu] = useState(null);
+  const wrapperRef = useRef();
   const [isScrolled, setIsScrolled] = useState(false);
 
   const headerRef = useRef(null);
@@ -47,6 +48,7 @@ const GNB = ({ isLogin = false, activeCampus = "gangnam" }) => {
         className={`${isScrolled ? "active fixed" : ""} ${
           openMenu !== null && !isScrolled ? "on" : ""
         }`}
+         onMouseLeave={() => setOpenMenu(null)}
       >
         {/* 상단 캠퍼스/로그인 영역 */}
         <div id="gnbTop">
@@ -96,23 +98,19 @@ const GNB = ({ isLogin = false, activeCampus = "gangnam" }) => {
         </div>
 
         {/* 로고 + 메뉴 */}
-        <div className="container">
+        <div className="container gnb-wrapper" ref={wrapperRef} onMouseLeave={() => setOpenMenu(null)}>
           <h1>
-            <a href="/index_new.asp" className="home-link">
+            <Link to="/" className="home-link">
               <img src={logoBlue} alt="logo" />
-            </a>
+            </Link>
           </h1>
 
-          <nav
-            className="gnb"
-            ref={navRef}
-            onMouseLeave={handleGlobalMouseLeave} // 전역 mouseleave 처리
-          >
+          <nav className="gnb">
             <ul>
               {[
                 {
                   title: "아카데미소개",
-                  submenu: [{label:"교육센터소개", to:"/about"}, {label:"코리아강사진", to:"/About"}, {label:"교육시설안내", to:"/About"}, {label:"찾아오시는길", to:"/About"}],
+                  submenu: [{label:"교육센터소개", to:"/about"}, {label:"코리아강사진", to:"/about"}, {label:"교육시설안내", to:"/about"}, {label:"찾아오시는길", to:"/about"}],
                 },
                 {
                   title: "교육과정안내",
@@ -140,9 +138,9 @@ const GNB = ({ isLogin = false, activeCampus = "gangnam" }) => {
                 <li
                   key={index}
                   className={openMenu === index ? "open" : ""}
-                  onMouseEnter={() => handleMouseEnter(index)}
-                >
-                  <a>{menu.title}</a>
+                  onMouseEnter={() => setOpenMenu(index)}>
+                  <a tabIndex={0}>{menu.title}</a>
+                  {openMenu === index && (
                   <ul className="submenu">
                     {menu.submenu.map((item, i) => (
                       <li key={i}>
@@ -150,13 +148,13 @@ const GNB = ({ isLogin = false, activeCampus = "gangnam" }) => {
                       </li>
                     ))}
                   </ul>
+                  )}
                 </li>
               ))}
             </ul>
             <div
               ref={bgRef}
               className={`bg-depth ${openMenu !== null ? "open" : ""}`}
-              onMouseLeave={handleGlobalMouseLeave}
             ></div>
           </nav>
 

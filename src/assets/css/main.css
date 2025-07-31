@@ -231,7 +231,7 @@
 .fac-slider .swiper-slide .bg {position:absolute; left:0; top:0; width:100%; height:100%; border-radius:2rem; background: rgba(255, 255, 255, 0.7); transition:0.5s; transition-delay:0.4s;}
 .fac-slider .swiper-slide-active .bg {opacity:0; transition:0.5s; transition-delay:0.4s;}
 .fac-slider .title-box.sub{align-items: flex-start;}
-.fac-slider .title-box.main{text-align:right; margin-bottom:10rem; display:none;}
+.fac-slider .title-box.main{text-align:right; margin-bottom:10rem;}
 
 
 /*animation*/
