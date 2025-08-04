@@ -4,7 +4,7 @@ import "../../assets/css/main.css";
 import logoBlue from "../../assets/img/logo_blue.png";
 import MobileNav from "./MobileNav";
 
-const GNB = ({ isLogin = false, activeCampus = "gangnam" }) => {
+const GNB = ({isMain = false, isLogin = false, activeCampus = "gangnam" }) => {
   const [openMenu, setOpenMenu] = useState(null);
   const wrapperRef = useRef();
   const [isScrolled, setIsScrolled] = useState(false);
@@ -45,7 +45,7 @@ const GNB = ({ isLogin = false, activeCampus = "gangnam" }) => {
       <header
         id="main-header"
         ref={headerRef}
-        className={`${isScrolled ? "active fixed" : ""} ${
+        className={`${isScrolled ? "active fixed" : ""} ${isMain ? "main-gnb" : "sub-gnb"} ${
           openMenu !== null && !isScrolled ? "on" : ""
         }`}
          onMouseLeave={() => setOpenMenu(null)}
@@ -110,29 +110,19 @@ const GNB = ({ isLogin = false, activeCampus = "gangnam" }) => {
               {[
                 {
                   title: "아카데미소개",
-                  submenu: [{label:"교육센터소개", to:"/about"}, {label:"코리아강사진", to:"/about"}, {label:"교육시설안내", to:"/about"}, {label:"찾아오시는길", to:"/about"}],
+                  submenu: [{label:"교육센터소개", to:"/about"}, {label:"코리아강사진", to:"/teacher"}, {label:"교육시설안내", to:"/facilities"}, {label:"찾아오시는길", to:"/location"}],
                 },
                 {
                   title: "교육과정안내",
-                  submenu: [
-                    "항공운항과 대학입시반",
-                    "항공경영과 대학입시반",
-                    "고1&고2 집중반",
-                    "수시, 정시 집중 대비반",
-                  ],
+                  submenu: [{label:"항공운항과 대학입시반", to:"/curriculum01"}, {label:"항공경영과 대학입시반", to:"/curriculum02"}, {label:"고1&고2 집중반", to:"/curriculum03"}, {label:"수시, 정시 집중 대비반", to:"/curriculum04"}],
                 },
                 {
                   title: "어학정보",
-                  submenu: ["토익", "토익 스피킹"],
+                  submenu: [{label:"토익", to:"/language01"}, {label:"토익스피킹", to:"/language02"}],
                 },
                 {
                   title: "입시정보",
-                  submenu: [
-                    "항공운항과 소개",
-                    "진로·비전",
-                    "산학협력대학교",
-                    "항공운항과 면접지원",
-                  ],
+                  submenu: [{label:"항공운항과 소개", to:"/course"}, {label:"진로비전", to:"/career"}, {label:"산학협력대학교", to:"/collegePartner"}, {label:"항공운항과 면접지원", to:"/support"}],
                 },
               ].map((menu, index) => (
                 <li

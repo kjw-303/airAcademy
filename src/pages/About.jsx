@@ -13,7 +13,7 @@ export const About = () => {
     <>
     <div id="wrap" className="sub">
         {/* GNB */}
-        <GNB isLogin={false} activeCampus="gangnam" />
+        <GNB isLogin={false} isMain={false} activeCampus="gangnam" />
         {/* 메인 컨텐츠 */}
         <div className="academy-main">
         <div className="bg-top">
