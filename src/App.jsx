@@ -30,7 +30,7 @@ function App() {
                 꿈이 아닌 현실에 한걸음 다가선 당신을 응원합니다.
               </div>
             </h3>
-            <a href="/2025/community/airlini_cl.asp" className="link-btn">
+            <a href="/airline_cl" className="link-btn">
               전체 합격후기 보러가기<span className="arrow"></span>
             </a>
           </div>

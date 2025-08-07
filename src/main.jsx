@@ -13,7 +13,19 @@ import Language01 from "./pages/language01.jsx";
 import Language02 from "./pages/language02.jsx";
 import Course from "./pages/course.jsx";
 import Career from "./pages/career.jsx";
+import CollegePartner from "./pages/collegePartner.jsx";
 import Support from "./pages/support.jsx";
+import Gallery from "./pages/gallery.jsx";
+import AirlineCl from "./pages/airline_cl.jsx";
+import Interview from "./pages/interview.jsx";
+import EventPost from "./pages/eventPOST.jsx";
+import PricesVaction from "./pages/prices_vacation.jsx";
+import TimeTable from "./pages/timeTable.jsx";
+import Online from "./pages/online.jsx";
+import Feedback from "./pages/feedback.jsx";
+import SearchAirline from "./pages/searchAirline.jsx";
+import Kakao from "./pages/kakao.jsx";
+import TuitionInfo from "./pages/tuitionInfo.jsx";
 import "./index.css";
 import "./assets/css/responsive.css";
 import "./assets/css/common.css";
@@ -36,7 +48,20 @@ createRoot(document.getElementById("root")).render(
       <Route path="/language02" element={<Language02/>} />
       <Route path="/course" element={<Course/>} />
       <Route path="/career" element={<Career/>} />
+      <Route path="/collegePartner" element={<CollegePartner/>} />
       <Route path="/support" element={<Support/>} />
+      <Route path="/gallery" element={<Gallery/>} />
+      <Route path="/airline_cl" element={<AirlineCl/>} />
+      <Route path="/interview" element={<Interview/>} />
+      <Route path="/eventPOST" element={<EventPost/>} />
+      <Route path="/eventPOST" element={<EventPost/>} />
+      <Route path="/prices_vacation" element={<PricesVaction/>} />
+      <Route path="/timeTable" element={<TimeTable/>} />
+      <Route path="/online" element={<Online/>} />
+      <Route path="/feedback" element={<Feedback/>} />
+      <Route path="/searchAirline" element={<SearchAirline/>} />
+      <Route path="/kakao" element={<Kakao/>} />
+      <Route path="/tuitionInfo" element={<TuitionInfo/>} />
   </Routes>
  </BrowserRouter>
 );

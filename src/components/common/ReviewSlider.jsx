@@ -64,7 +64,7 @@ const ReviewSlider = () => {
           </div>
         </div>
 
-        <a href="/2025/customer/search_airline.asp" className="link-btn">
+        <a href="/searchAirline.asp" className="link-btn">
           지원가능한 대학 조회하기<span className="arrow"></span>
         </a>
       </div>

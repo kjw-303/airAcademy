@@ -11,32 +11,32 @@ const QuickMenu = () => {
   const menuItems = [
     {
       label: "수강료조회",
-      href: "/2025/customer/prices_vacation.asp",
+      href: "/prices_vacation",
       icon: quickIcon01,
       bubble: "마감임박!\n선착순 이벤트",
       labelMobile: "수강료조회",
     },
     {
       label: "무료입시컨설팅",
-      href: "/2025/customer/online.asp",
+      href: "/online",
       icon: quickIcon02,
       labelMobile: "입시컨설팅",
     },
     {
       label: "학원위치조회",
-      href: "/2025/about/location.asp",
+      href: "/location",
       icon: quickIcon03,
       labelMobile: "위치조회",
     },
     {
       label: "지원가능한대학",
-      href: "/2025/customer/search_airline.asp",
+      href: "/searchAirline",
       icon: quickIcon04,
       labelMobile: "지원가능대학",
     },
     {
       label: "카톡상담",
-      href: "/2025/customer/kakao.asp",
+      href: "/kakao",
       icon: quickIcon05,
       labelMobile: "카톡상담",
     },

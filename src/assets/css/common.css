@@ -141,9 +141,11 @@ border-radius: 0px; /* iOS 둥근모서리 제거 */
 appearance: none;
 padding:10px;
 }
+input[type='radio'] {flex:0 0 auto; background:url('/src/assets/img/icon_radio_false.png') no-repeat center / cover; height:24px; width:24px; cursor:pointer; vertical-align:middle; -webkit-appearance:none; -webkit-border-radius:3px; padding:0; border:0 0/IE8+9; margin-top:0; margin-top:2px 0/IE8+9;}
+input[type='radio']:checked {background:url('/src/assets/img/icon_radio_true.png') no-repeat center / cover;}
 
 /* 수강료조회 */
-.tuitionTable {width:100%; font-size:15px; border-top:2px solid #061b6a;}
+.tuitionTable {width:100%; font-size:15px; border-top:2px solid #061b6a; color:#333;}
 .tuitionTable tr {}
 .tuitionTable tr th {line-height:1.4em; padding:16px 18px; height:62px; background:#57bbeb; color:#333; font-size:15px; font-weight:400; border-right:solid 1px #333;}
 .tuitionTable tr th:last-child {border-right:0;}
@@ -194,3 +196,30 @@ padding:10px;
 .privacyTxt {height:85%;}
 .privacyAgree u {margin-left:5px; text-decoration:none;}
 .icHot {vertical-align: middle; padding-left: 10px;}
+
+/*검색*/
+.cmntSch {width:100%;margin-top: 6rem; display: flex;justify-content: flex-end;}
+.cmntSch ul{display:flex;gap:1rem;width: 50rem;position: relative;}
+.cmntSch ul li:nth-child(1) {width: 13rem;}
+.cmntSch ul li:nth-child(2) {flex:1;}
+.cmntSch ul li:nth-child(3) {position:absolute;right: 2rem;}
+.cmntSch ul li select,
+.cmntSch ul li input[type="text"] {display:block; width:100%; height:5rem;border:solid 1px #d9d9d9;}
+.cmntSch ul li select {cursor:pointer;}
+.cmntSch ul li button {display:block;width: 2rem;height:5rem;background:url("/src/assets/img/search_ico.png")no-repeat center center;border:none;background-size: contain;}
+
+/* 푸터 */
+#footer {background:#f8f9fa; position:relative;}
+#footer .container {padding: 10rem 0 10rem;display: flex;align-items: flex-start;}
+#footer ul {display:block; margin-bottom:30px; color:#333;}
+#footer ul li {display:inline-block; padding:0 10px; position:relative;}
+#footer ul li:after {content:""; display:block; width:1px; height:10px; background:#c5c5c5; position:absolute; right:0; top:50%; margin-top:-5px;}
+#footer ul li:first-child {padding-left:0;}
+#footer ul li:last-child {padding-right:0;}
+#footer ul li:last-child span {color:#0051bf;}
+#footer ul li:last-child:after {display:none;}
+#footer ul li a {white-space:nowrap; font-size:13px; letter-spacing:-0.025em; color:#666;}
+#footer ul li a span {display:inline-block; margin-left:3px; color:#0051bf;}
+#footer p {letter-spacing:-0.025em; color:#888; font-size:11px;}
+#footer address {font-style:normal; margin-top:15px;}
+#footer .footerLogo {display:block;width:19.5rem;height:4rem;text-indent:-9999px;background:url("/src/assets/img/logo/logo_dark.png") 0 0 no-repeat;margin-left: 4.6rem;margin-right: 11.1rem;}

@@ -1,6 +1,6 @@
 /* ¾ÆÄ«µ¥¹Ì¼Ò°³ */
 .academy-main .bg-top {background:url('/src/assets/img/bg_academy.jpg') no-repeat center / cover;}
-.academy-main .bg-top h3 {padding-top:41rem; font-size:9.6rem; color:#082371; font-family:'Codec-Cold-Heavy-trial'; line-height:1.3; text-align:center; letter-spacing:0;}
+.academy-main .bg-top h3 {padding-top:41rem; font-size:9.6rem; color:#082371; font-family:'Codec-Cold-Heavy-trial'; line-height:1.3; text-align:center; letter-spacing:0; font-weight:700;}
 .academy-main .bg-top .bar {width:.3rem; height:10rem; margin:2rem auto 0; background:#082371; text-align:center;}
 .academy-main .bg-top .text {width:64rem; margin:5.5rem auto 0 50%; font-size:2.1rem; color:#666; font-weight:300; word-break: keep-all;}
 .academy-main .bg-top .text .mt {margin-top:5rem;}
@@ -181,42 +181,42 @@
 .d-flex .title.w89 {min-width:8.9rem;}
 .cooperation-logo {display:block; width:123rem; margin:3rem auto 0;}
 .cooperation-logo button {width:13rem; height:14.3rem; background-repeat:no-repeat; background-position:center; background-size:100%; background-color:#fff; border:0;}
-.cooperation-logo .logo01 {background-image:url('/src/assets/cooperation/partner_logo_kmu.png');}
-.cooperation-logo .logo02 {background-image:url('/src/assets/cooperation/partner_logo_lcb.png');}
-.cooperation-logo .logo03 {background-image:url('/src/assets/cooperation/partner_logo_bcu.png');}
-.cooperation-logo .logo04 {background-image:url('/src/assets/cooperation/partner_logo_chodang.png');}
-.cooperation-logo .logo05 {background-image:url('/src/assets/cooperation/partner_logo_jei.png');}
-.cooperation-logo .logo06 {background-image:url('/src/assets/cooperation/partner_logo_seowon.png');}
-.cooperation-logo .logo07 {background-image:url('/src/assets/cooperation/partner_logo_kdu.png');}
-.cooperation-logo .logo08 {background-image:url('/src/assets/cooperation/partner_logo_sangji.png');}
-.cooperation-logo .logo09 {background-image:url('/src/assets/cooperation/partner_logo_seoyeong.png');}
-.cooperation-logo .logo10 {background-image:url('/src/assets/cooperation/partner_logo_dowon.png');}
-.cooperation-logo .logo11 {background-image:url('/src/assets/cooperation/partner_logo_dongseoul.png');}
-.cooperation-logo .logo12 {background-image:url('/src/assets/cooperation/partner_logo_howon.png');}
-.cooperation-logo .logo13 {background-image:url('/src/assets/cooperation/partner_logo_gangdong.png');}
-.cooperation-logo .logo14 {background-image:url('/src/assets/cooperation/partner_logo_joongbu.png');}
-.cooperation-logo .logo15 {background-image:url('/src/assets/cooperation/partner_logo_sehan.png');}
-.cooperation-logo .logo16 {background-image:url('/src/assets/cooperation/partner_logo_yeonsung.png');}
-.cooperation-logo .logo17 {background-image:url('/src/assets/cooperation/partner_logo_daelim.png');}
-.cooperation-logo .logo18 {background-image:url('/src/assets/cooperation/partner_logo_scau.png');}
-.cooperation-logo .logo01.on {background-image:url('/src/assets/cooperation/partner_logo_kmu_color.png');}
-.cooperation-logo .logo02.on {background-image:url('/src/assets/cooperation/partner_logo_lcb_color.png');}
-.cooperation-logo .logo03.on {background-image:url('/src/assets/cooperation/partner_logo_bcu_color.png');}
-.cooperation-logo .logo04.on {background-image:url('/src/assets/cooperation/partner_logo_chodang_color.png');}
-.cooperation-logo .logo05.on {background-image:url('/src/assets/cooperation/partner_logo_jei_color.png');}
-.cooperation-logo .logo06.on {background-image:url('/src/assets/cooperation/partner_logo_seowon_color.png');}
-.cooperation-logo .logo07.on {background-image:url('/src/assets/cooperation/partner_logo_kdu_color.png');}
-.cooperation-logo .logo08.on {background-image:url('/src/assets/cooperation/partner_logo_sangji_color.png');}
-.cooperation-logo .logo09.on {background-image:url('/src/assets/cooperation/partner_logo_seoyeong_color.png');}
-.cooperation-logo .logo10.on {background-image:url('/src/assets/cooperation/partner_logo_dowon_color.png');}
-.cooperation-logo .logo11.on {background-image:url('/src/assets/cooperation/partner_logo_dongseoul_color.png');}
-.cooperation-logo .logo12.on {background-image:url('/src/assets/cooperation/partner_logo_howon_color.png');}
-.cooperation-logo .logo13.on {background-image:url('/src/assets/cooperation/partner_logo_gangdong_color.png');}
-.cooperation-logo .logo14.on {background-image:url('/src/assets/cooperation/partner_logo_joongbu_color.png');}
-.cooperation-logo .logo15.on {background-image:url('/src/assets/cooperation/partner_logo_sehan_color.png');}
-.cooperation-logo .logo16.on {background-image:url('/src/assets/cooperation/partner_logo_yeonsung_color.png');}
-.cooperation-logo .logo17.on {background-image:url('/src/assets/cooperation/partner_logo_daelim_color.png');}
-.cooperation-logo .logo18.on {background-image:url('/src/assets/cooperation/partner_logo_scau_color.png');}
+.cooperation-logo .logo01 {background-image:url('/src/assets/img/uniLogo/partner_logo_kmu.png');}
+.cooperation-logo .logo02 {background-image:url('/src/assets/img/uniLogo/partner_logo_lcb.png');}
+.cooperation-logo .logo03 {background-image:url('/src/assets/img/uniLogo/partner_logo_bcu.png');}
+.cooperation-logo .logo04 {background-image:url('/src/assets/img/uniLogo/partner_logo_chodang.png');}
+.cooperation-logo .logo05 {background-image:url('/src/assets/img/uniLogo/partner_logo_jei.png');}
+.cooperation-logo .logo06 {background-image:url('/src/assets/img/uniLogo/partner_logo_seowon.png');}
+.cooperation-logo .logo07 {background-image:url('/src/assets/img/uniLogo/partner_logo_kdu.png');}
+.cooperation-logo .logo08 {background-image:url('/src/assets/img/uniLogo/partner_logo_sangji.png');}
+.cooperation-logo .logo09 {background-image:url('/src/assets/img/uniLogo/partner_logo_seoyeong.png');}
+.cooperation-logo .logo10 {background-image:url('/src/assets/img/uniLogo/partner_logo_dowon.png');}
+.cooperation-logo .logo11 {background-image:url('/src/assets/img/uniLogo/partner_logo_dongseoul.png');}
+.cooperation-logo .logo12 {background-image:url('/src/assets/img/uniLogo/partner_logo_howon.png');}
+.cooperation-logo .logo13 {background-image:url('/src/assets/img/uniLogo/partner_logo_gangdong.png');}
+.cooperation-logo .logo14 {background-image:url('/src/assets/img/uniLogo/partner_logo_joongbu.png');}
+.cooperation-logo .logo15 {background-image:url('/src/assets/img/uniLogo/partner_logo_sehan.png');}
+.cooperation-logo .logo16 {background-image:url('/src/assets/img/uniLogo/partner_logo_yeonsung.png');}
+.cooperation-logo .logo17 {background-image:url('/src/assets/img/uniLogo/partner_logo_daelim.png');}
+.cooperation-logo .logo18 {background-image:url('/src/assets/img/uniLogo/partner_logo_scau.png');}
+.cooperation-logo .logo01.on {background-image:url('/src/assets/img/uniLogo/partner_logo_kmu_color.png');}
+.cooperation-logo .logo02.on {background-image:url('/src/assets/img/uniLogo/partner_logo_lcb_color.png');}
+.cooperation-logo .logo03.on {background-image:url('/src/assets/img/uniLogo/partner_logo_bcu_color.png');}
+.cooperation-logo .logo04.on {background-image:url('/src/assets/img/uniLogo/partner_logo_chodang_color.png');}
+.cooperation-logo .logo05.on {background-image:url('/src/assets/img/uniLogo/partner_logo_jei_color.png');}
+.cooperation-logo .logo06.on {background-image:url('/src/assets/img/uniLogo/partner_logo_seowon_color.png');}
+.cooperation-logo .logo07.on {background-image:url('/src/assets/img/uniLogo/partner_logo_kdu_color.png');}
+.cooperation-logo .logo08.on {background-image:url('/src/assets/img/uniLogo/partner_logo_sangji_color.png');}
+.cooperation-logo .logo09.on {background-image:url('/src/assets/img/uniLogo/partner_logo_seoyeong_color.png');}
+.cooperation-logo .logo10.on {background-image:url('/src/assets/img/uniLogo/partner_logo_dowon_color.png');}
+.cooperation-logo .logo11.on {background-image:url('/src/assets/img/uniLogo/partner_logo_dongseoul_color.png');}
+.cooperation-logo .logo12.on {background-image:url('/src/assets/img/uniLogo/partner_logo_howon_color.png');}
+.cooperation-logo .logo13.on {background-image:url('/src/assets/img/uniLogo/partner_logo_gangdong_color.png');}
+.cooperation-logo .logo14.on {background-image:url('/src/assets/img/uniLogo/partner_logo_joongbu_color.png');}
+.cooperation-logo .logo15.on {background-image:url('/src/assets/img/uniLogo/partner_logo_sehan_color.png');}
+.cooperation-logo .logo16.on {background-image:url('/src/assets/img/uniLogo/partner_logo_yeonsung_color.png');}
+.cooperation-logo .logo17.on {background-image:url('/src/assets/img/uniLogo/partner_logo_daelim_color.png');}
+.cooperation-logo .logo18.on {background-image:url('/src/assets/img/uniLogo/partner_logo_scau_color.png');}
 .swiper-logo {display:none;}
 
 .support-list {display: flex; flex-wrap: wrap; width: 99rem; margin: 10rem auto 0;}
@@ -230,13 +230,12 @@
 
 /*»ó´ã¼¾ÅÍ tuition*/
 .customer .container-tuition{margin:0; width:auto; margin-bottom:25rem;}
-.customer .cont-box{max-width:96rem; margin:0 auto; width:100%; position:relative;}
-.customer .tuitionHope li button.delete {border:none;display:inline-block; width:1.2rem; height:1.2rem; margin-left:1rem; background:url('/src/assets/sub/icon_check_black.png') center center no-repeat;}
+.customer .cont-box{max-width:96rem; margin:0 auto; width:100%; position:relative; color:#333;} 
+.customer .tuitionHope li button.delete {border:none;display:inline-block; width:1.2rem; height:1.2rem; margin-left:1rem; background:url('/src/assets/img/icon_check_black.png') center center no-repeat;}
 .customer .tui-local-check li{width:100%;}
 .customer .tui-local-check {flex-wrap: nowrap;}
 .tuition-section a.button {font-size:1.6rem; height:4.4rem; line-height:4.4rem; border:0; border-radius:1.2rem; background:#07206e; color:#fff; display:block;text-align:center;}
 .customer .tui-local-check li label{margin-left:0;}
-.customer .container-tuition .tuition-section{}
 .textar{position: absolute; height:12.5rem; width:90%; resize:none;}
 .tuitionHope li b{ font-weight:500; margin-right:3px;}
 .tuition-section .tui-control{position:relative;}
@@ -255,15 +254,17 @@
 .tuitionType02 .title{font-size:1.5rem; font-weight:700; margin-bottom:1.5rem;}
 .tuitionType02 ul{ width:100%; display:flex;}
 .tuitionType02 ul li{width:20%; font-size:1.4rem; margin-bottom:3rem;}
+.tuitionType02 ul li label {margin-left:.5rem;}
 
 /*community*/
 .community .cont-box{max-width:144rem; margin:0 auto; width:100%;}
 .community .cont-box .container.view{max-width:96rem; margin:0 auto; width:100%;}
+.community .cont-box .container {margin:0 auto;}
 
 .photoList {margin-top:6rem;display: flex;flex-wrap: wrap; margin-left: -3rem;}
-.photoList li {width: calc(100% / 3 - 3rem);margin-left: 3rem;margin-bottom: 4.5rem;}
+.photoList li {width: calc(100% / 3 - 3rem);margin-left: 3rem;margin-bottom: 4.5rem; color:#333;}
 .photoList li a div {padding-bottom:69.6%; position:relative; overflow:hidden;border-radius: 4.8rem;}
-.photoList li a div em {display:block; position:absolute; left:0; right:0; top:0; bottom:0; background-size:cover !important; background-position:center center !important;}
+.photoList li a div em {display:block; position:absolute; left:0; right:0; top:0; bottom:0; background-size:cover !important; background-position:center center !important; background-color:#ddd;}
 .photoList.seminarList li a div {padding-bottom: 0; height: 450px;}
 .photoList li a h6 {font-weight: 300;font-size: 1.8rem;letter-spacing: normal;margin-top: 0.5rem;}
 .photoList li a h5 {font-size: 2.1rem;text-overflow:ellipsis;font-weight: 700;margin-top: 2.5rem;}
@@ -280,7 +281,7 @@
 .review .postList {margin-top: 6rem;display: flex;flex-wrap: wrap; margin-left: -3rem;}
 .review .postList li {transition:all 0.5s;width: calc(100% / 5 - 3rem);margin-left: 3rem;margin-bottom:3rem;box-shadow: 0px 5px 10px rgba(0,0,0,0.13);height: 40rem;border-radius: 4.8rem;}
 .review .postList li:hover{box-shadow:0px 5px 10px rgb(86 188 235 / 70%); }
-.review .postList li a {display:block;position:relative;width: 100%;height: 100%;padding: 8rem 3rem 4rem 3rem;}
+.review .postList li a {display:block;position:relative;width: 100%;height: 100%;padding: 8rem 3rem 4rem 3rem; color:#333;}
 .review .postList li a em {box-shadow:inset 0 5px 5px rgba(0,0,0,0.13); display:block; width:10rem; height:10rem; margin:0 auto; background-size:cover !important; background-position:center center !important; border-radius: 50%; }
 .review .postList li a h6 {font-weight:400;position:absolute;right: 3rem;top: 4rem;font-size:1.4rem;}
 .review .postList li a h6 span {font-weight:700;}
@@ -307,7 +308,6 @@
 .login .txt-box{max-width: 49.4rem;width: 100%;}
 .login .txt-box .item{border-radius:2.4rem; border:1px solid #e0e0e0; padding:2rem 3rem; display:flex; gap:2rem; margin-bottom:2rem;}
 .login .txt-box .item div{font-size:1.7rem; font-weight:700;}
-.login .txt-box em{}
 .login .txt-box p{font-size:1.5rem;color:#666666;font-weight: 300;}
 .login .login-box{ flex: 1;}
 .login .login-btm-btn{ display: flex; align-items: center; justify-content: flex-end;}
@@ -337,7 +337,6 @@
 .sub.findpw .idSearchTel{display: flex;}
 .sub.findpw .idSearchTel select{width:10rem;}
 .sub.findpw .idSearchTel li{margin-bottom:0;}
-.sub.findpw span.telBar{}
 
 .joinSuccess {margin-top:6rem;text-align:center; display:block; }
 .joinSuccess h4 {font-size:4.2rem; font-weight:800; }
@@ -361,7 +360,6 @@
 
 /*customer-banner*/
 .customer-banner{height:32rem;overflow:visible; margin-top:5.5rem; margin-bottom:8rem;}
-.customer-banner .swiper-wrapper{}
 .customer-banner .swiper-slide{border-radius:4.8rem;width:96rem;color: #fff;box-shadow: 0px 10px 20px rgb(0 0 0 / 13%);}
 .customer-banner .swiper-slide a{display: flex;flex-direction: column;justify-content: flex-end;width:100%; height:100%;padding:6.4rem;}
 .customer-banner span{font-size:1.4rem; font-weight:500;}

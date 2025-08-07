@@ -103,7 +103,7 @@ const TeacherSlider = () => {
               분야별 전임 강사제도를 도입해 운영하고 있습니다.
             </p>
           </div>
-          <a href="/2025/about/teacher.asp" className="link-btn">
+          <a href="/teacher.asp" className="link-btn">
             국가대표급 라인업 보러가기<span className="arrow"></span>
           </a>
         </div>

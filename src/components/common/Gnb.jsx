@@ -124,6 +124,14 @@ const GNB = ({isMain = false, isLogin = false, activeCampus = "gangnam" }) => {
                   title: "입시정보",
                   submenu: [{label:"항공운항과 소개", to:"/course"}, {label:"진로비전", to:"/career"}, {label:"산학협력대학교", to:"/collegePartner"}, {label:"항공운항과 면접지원", to:"/support"}],
                 },
+                {
+                  title: "커뮤니티",
+                  submenu: [{label:"포토존", to:"/gallery"}, {label:"합격생이 직접 작성한 리얼성공후기", to:"/airline_cl"}, {label:"합격생인터뷰", to:"/interview"}, {label:"수강생후기", to:"/eventPOST"}],
+                },
+                {
+                  title: "고객상담센터",
+                  submenu: [{label:"새학기특강조회", to:"/prices_vacation"}, {label:"시간표조회", to:"/timeTable"}, {label:"입시컨설팅", to:"/online"}, {label:"학부모상담", to:"/feedback"}, {label:"지원가능한대학조회", to:"/searchAirline"}, {label:"카톡상담", to:"/kakao"}, {label:"수강료안내", to:"/tuitionInfo"}],
+                }
               ].map((menu, index) => (
                 <li
                   key={index}

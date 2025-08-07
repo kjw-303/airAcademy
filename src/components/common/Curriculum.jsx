@@ -4,7 +4,7 @@ import "../../assets/css/main.css"; // 기존 스타일 유지
 const curriculumData = [
   {
     id: 1,
-    link: "/2025/curriculum/curriculum01.asp",
+    link: "/curriculum01",
     tag: "Curriculum 01",
     subtitle: "Entrance Examination",
     title: ["항공운항과", "대학입시반"],
@@ -15,7 +15,7 @@ const curriculumData = [
   },
   {
     id: 2,
-    link: "/2025/curriculum/curriculum02.asp",
+    link: "/curriculum02",
     tag: "Curriculum 02",
     subtitle: "Aviation management",
     title: ["항공경영과", "대학입시반"],
@@ -26,7 +26,7 @@ const curriculumData = [
   },
   {
     id: 3,
-    link: "/2025/curriculum/curriculum03.asp",
+    link: "/curriculum03",
     tag: "Curriculum 03",
     subtitle: "Reserve Stewardess",
     title: ["고1 & 고2", "집중반"],
@@ -37,7 +37,7 @@ const curriculumData = [
   },
   {
     id: 4,
-    link: "/2025/curriculum/curriculum04.asp",
+    link: "/curriculum04",
     tag: "Curriculum 04",
     subtitle: "Short-Term Class",
     title: ["수시, 정시", "집중대비반"],
@@ -85,7 +85,7 @@ const Curriculum = () => {
             <br />
             체계적인 항공운항과 입시전략
           </p>
-          <a href="/2025/customer/online.asp" className="link-btn">
+          <a href="/online.asp" className="link-btn">
             무료 입시상담 신청하기<span className="arrow"></span>
           </a>
         </div>
