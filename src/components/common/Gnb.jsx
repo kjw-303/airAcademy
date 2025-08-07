@@ -77,10 +77,10 @@ const GNB = ({isMain = false, isLogin = false, activeCampus = "gangnam" }) => {
           <div className="gnb-right">
             {!isLogin ? (
               <div className="login-box">
-                <a href="/2025/member/login.asp" className="login">
+                <Link to="/login" className="login">
                   로그인
-                </a>
-                <a href="/2025/member/join.asp">회원가입</a>
+                </Link>
+                <Link to="/join">회원가입</Link>
               </div>
             ) : (
               <div className="logout-box">
@@ -91,7 +91,7 @@ const GNB = ({isMain = false, isLogin = false, activeCampus = "gangnam" }) => {
               </div>
             )}
             <div>
-              <a href="/2025/about/location.asp">오시는길</a>
+              <Link to="/location">오시는길</Link>
             </div>
             <div>대표문의전화 1588-2095</div>
           </div>

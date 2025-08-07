@@ -20,12 +20,14 @@
  -webkit-font-smoothing: antialiased; 
  -moz-osx-font-smoothing: grayscale; 
  } 
-body { 
+body {
+font-family: "Pretendard";
  margin: 0; 
  display: flex; 
  place-items: center; 
  min-width: 320px; 
  background: #fff; 
- font-size: 1.4rem; 
+ font-size: 1.3rem;
+ color:#333;
  }
 

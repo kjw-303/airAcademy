@@ -304,7 +304,7 @@
 .member .login-area label{font-size:1.4rem; color:#051866; display:block; margin-bottom:1.5rem;}
 .login-box input[type="text"],.login-box input[type="password"],.login-box select{height:5.4rem;}
 
-.login .cont-box{display:flex; gap:6rem;}
+.login .cont-box{display:flex; gap:6rem; color:#333;}
 .login .txt-box{max-width: 49.4rem;width: 100%;}
 .login .txt-box .item{border-radius:2.4rem; border:1px solid #e0e0e0; padding:2rem 3rem; display:flex; gap:2rem; margin-bottom:2rem;}
 .login .txt-box .item div{font-size:1.7rem; font-weight:700;}
@@ -325,13 +325,14 @@
 .joinPrivacyCont h3 {margin:1rem 0; font-size:1.3rem;}
 .joinPrivacyTitle {font-size: 2.4rem;margin-top: 5rem;font-weight: 300;}
 .joinChkAgree {font-size: 1.5rem; margin-top:2rem;}
+.joinChkAgree label {margin-left:.5rem;}
 .JoinBtn{margin-top:7rem;}
 .JoinBtn a{width:32rem; margin:0 auto;}
 
 
-.sub.joinComplete{background: url("/src/assets/sub/member_complete_bg.jpg")no-repeat;background-position: 0 44%;}
+.sub.joinComplete{background: url("/src/assets/img/member_complete_bg.jpg")no-repeat;background-position: 0 44%;}
 .sub.joinComplete .sub-pt{ padding-bottom: 42rem;}
-.sub.findpw{background: url("/src/assets/sub/member_complete_bg.jpg")no-repeat;background-position: 0 33%;}
+.sub.findpw{background: url("/src/assets/img/member_complete_bg.jpg")no-repeat;background-position: 0 33%;}
 .sub.findpw .sub-pt{ padding-bottom: 42rem;}
 .sub.findpw .cont-box{width:38rem;}
 .sub.findpw .idSearchTel{display: flex;}

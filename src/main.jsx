@@ -26,6 +26,9 @@ import Feedback from "./pages/feedback.jsx";
 import SearchAirline from "./pages/searchAirline.jsx";
 import Kakao from "./pages/kakao.jsx";
 import TuitionInfo from "./pages/tuitionInfo.jsx";
+import Login from "./pages/login.jsx";
+import Join from "./pages/join.jsx";
+import IdpwSearch from "./pages/idpwSearch.jsx";
 import "./index.css";
 import "./assets/css/responsive.css";
 import "./assets/css/common.css";
@@ -62,6 +65,9 @@ createRoot(document.getElementById("root")).render(
       <Route path="/searchAirline" element={<SearchAirline/>} />
       <Route path="/kakao" element={<Kakao/>} />
       <Route path="/tuitionInfo" element={<TuitionInfo/>} />
+      <Route path="/login" element={<Login/>} />
+      <Route path="/join" element={<Join/>} />
+      <Route path="/idpwSearch" element={<IdpwSearch/>} />
   </Routes>
  </BrowserRouter>
 );
