@@ -5,6 +5,10 @@ import TeacherSlider from "../components/common/TeacherSlider";
 import Facility from "../components/common/Facility";
 import TuitionForm from "../components/common/TuitionForm";
 import Footer from "../components/common/Footer";
+import supportImg01 from "../assets/img/interview01.jpg"
+import supportImg02 from "../assets/img/interview02.jpg"
+import supportImg03 from "../assets/img/interview03.jpg"
+import supportImg04 from "../assets/img/interview04.jpg"
 
 const Support = () => (
   <div id="wrap" className="sub">
@@ -20,7 +24,7 @@ const Support = () => (
                 </div>
             </div>
             <div className="contents column">
-                <div className="img"><img src="/src/assets/img/interview01.jpg" alt="항공운항" /></div>
+                <div className="img"><img src={supportImg01} alt="항공운항" /></div>
                 <div className="info">
                     <h3 className="mt">Support</h3>
                     <ul className="mt">
@@ -28,15 +32,15 @@ const Support = () => (
                         <li>한서대학교 항공관광학과, 인하공전 항공운항과, 수원과학대 항공관광학과, 연성대학교 항공서비스학과 등 대부분의 주요 대학들의 면접을 지원하고 있습니다.</li>
                     </ul>
                     <div className="support-list">
-                        <img src="/src/assets/img/interview02.jpg" alt=""/>
-                        <img src="/src/assets/img/interview03.jpg" alt=""/>
+                        <img src={supportImg02} alt=""/>
+                        <img src={supportImg03} alt=""/>
                         <div className="text">
                             형식적인 지원이 아닌<br/>
                             수험생분들의 세심한부분까지 배려하는<br/>
                             코리아항공운항과에서<br/>
                             <span>클래스가 다른 자부심을 가져보세요!</span>
                         </div>
-                        <img src="/src/assets/img/interview04.jpg" alt=""/>
+                        <img src={supportImg04} alt=""/>
                     </div>
                 </div>
             </div>

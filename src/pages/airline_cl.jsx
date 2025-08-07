@@ -4,6 +4,7 @@ import TeacherSlider from "../components/common/TeacherSlider";
 import Facility from "../components/common/Facility";
 import TuitionForm from "../components/common/TuitionForm";
 import Footer from "../components/common/Footer";
+import Thumn from "../assets/img/review_thum.jpg"
 
 const reviewInfo = [
     {loca:"강남", num:"110", name:"김채원", review:"2024학년도 인하공업전문대학 외 3개 대학 합격을 축하드립니다!", data:"2025-07-30"},
@@ -52,7 +53,7 @@ const airline_cl = () => {
                                 <a href="#">
                                     <span className='loca'>{p.loca}</span>
                                     <h6>No. <span>{p.num}</span></h6>
-                                    <em><img src="/src/assets/img/review_thum.jpg" alt="" /></em>
+                                    <em><img src={Thumn} alt="" /></em>
                                     <h5>
                                         <div>{p.name}<span>수강생</span></div>
                                         {p.review}
