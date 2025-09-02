@@ -71,55 +71,65 @@ const TuitionTab = () => {
     );
   };
 
+  const [open, setOpen] = useState(false);
+
   return (
-    <div className="container-tuition subTuitionBtm">
-    <form name="subTuitionForm" method="post" onSubmit={e => e.preventDefault()}> 
+    <>
+    <div className="mo-stuition-btn mo-show"  onClick={() => setOpen(true)}>빠른 수강료 조회</div>
+    <div className={`container-tuition subTuitionBtm${open ? " open" : ""}`}>
+      <div className="subTuitionTitle mo-show">
+        <h3>빠른 수강료 조회</h3>
+        <p>빠르고 간편하게 관심있는 교육과정의 수강료를 조회할 수 있습니다.</p>
+        <button type="button" className="qckClose" onClick={() => setOpen(false)}></button>
+      </div>
+      <form name="subTuitionForm" method="post" onSubmit={e => e.preventDefault()}> 
         <div className="tuition-section">
-            <div className="tui-control">
-                <div className="tui-tit-point">
-                    Step1. 찾고자 하는 학과를 먼저 선택 해주세요.
-                </div>
-                <ul className="tuitionTap">
-                    {tabData.map((tab) => (
-                    <li
-                        key={tab.id}
-                        data-curri-tab={tab.id}
-                        className={activeTab === tab.id ? "active" : ""}
-                        onClick={() => setActiveTab(tab.id)}
-                    >
-                        <a href="#!" onClick={e => e.preventDefault()}>{tab.title}</a>
-                    </li>
-                    ))}
-                </ul>
-                <div className="tui-tit-point">
-                    Step2. 세부 교육과정을 선택해주세요.
-                </div>
-                <div className="tuitionContWrap">
-                    {tabData.map(
-                    (tab) =>
-                        tab.id === activeTab && (
-                        <ul className="tuitionCont" id={tab.id} key={tab.id}>
-                            {tab.details.map((detail, idx) => (
-                            <li key={idx}>
-                                <input
-                                type="checkbox"
-                                id={`chk${tab.id}${idx}`}
-                                checked={checkedItems.includes(detail)}
-                                onChange={() => handleCheckbox(detail)}
-                                />
-                                <label htmlFor={`chk${tab.id}${idx}`}>{detail}</label>
-                            </li>
-                            ))}
-                        </ul>
-                        )
-                    )}
-                </div>
-            </div>
-            {/* subTuition */}
-            <SubTuition selectedCourses={checkedItems} setSelectedCourses={setCheckedItems}/>
+          <div className="tui-control">
+              <div className="tui-tit-point">
+                  Step1. 찾고자 하는 학과를 먼저 선택 해주세요.
+              </div>
+              <ul className="tuitionTap">
+                  {tabData.map((tab) => (
+                  <li
+                      key={tab.id}
+                      data-curri-tab={tab.id}
+                      className={activeTab === tab.id ? "active" : ""}
+                      onClick={() => setActiveTab(tab.id)}
+                  >
+                      <a href="#!" onClick={e => e.preventDefault()}>{tab.title}</a>
+                  </li>
+                  ))}
+              </ul>
+              <div className="tui-tit-point">
+                  Step2. 세부 교육과정을 선택해주세요.
+              </div>
+              <div className="tuitionContWrap">
+                  {tabData.map(
+                  (tab) =>
+                      tab.id === activeTab && (
+                      <ul className="tuitionCont" id={tab.id} key={tab.id}>
+                          {tab.details.map((detail, idx) => (
+                          <li key={idx}>
+                              <input
+                              type="checkbox"
+                              id={`chk${tab.id}${idx}`}
+                              checked={checkedItems.includes(detail)}
+                              onChange={() => handleCheckbox(detail)}
+                              />
+                              <label htmlFor={`chk${tab.id}${idx}`}>{detail}</label>
+                          </li>
+                          ))}
+                      </ul>
+                      )
+                  )}
+              </div>
+          </div>
+          {/* subTuition */}
+          <SubTuition selectedCourses={checkedItems} setSelectedCourses={setCheckedItems}/>
         </div>
-    </form>
+      </form>
     </div>
+    </>
   );
 };
 

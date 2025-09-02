@@ -29,9 +29,11 @@ import TuitionInfo from "./pages/tuitionInfo.jsx";
 import Login from "./pages/login.jsx";
 import Join from "./pages/join.jsx";
 import IdpwSearch from "./pages/idpwSearch.jsx";
+import "./assets/css/main.css";
+import "./assets/css/sub.css";
 import "./index.css";
-import "./assets/css/responsive.css";
 import "./assets/css/common.css";
+import "./assets/css/responsive.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 

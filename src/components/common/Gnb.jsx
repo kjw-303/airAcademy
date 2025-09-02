@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
 import {Link} from "react-router-dom"
-import "../../assets/css/main.css";
 import logoBlue from "../../assets/img/logo_blue.png";
 import MobileNav from "./MobileNav";
 
