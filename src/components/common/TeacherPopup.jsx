@@ -1,5 +1,5 @@
 import React from "react";
-import tchDefault from "../../assets/img/teacher/tch-default.png";
+import tchDefault from "/public/teacher/tch-default.png";
 
 const TeacherPopup = ({ open, teacher, onClose }) => {
   if (!open || !teacher) return null;
