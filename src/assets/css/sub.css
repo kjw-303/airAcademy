@@ -33,33 +33,33 @@
 .teacher-list li .name .job {font-weight:300;}
 .teacher-list li .discription {margin-top:2.5rem; font-size:1.6rem; color:#061a69; text-decoration: underline; text-underline-offset:4px;}
 .teacher-list .tch-item {background-size:90%; background-position:10rem bottom; background-repeat:no-repeat; background-color:#fafafa;}
-.teacher-list .thgn-01 {background-image:url('/src/assets/img/teacher/tch-thgn-01.png');}
-.teacher-list .thgn-02 {background-image:url('/src/assets/img/teacher/tch-thgn-02.png');}
-.teacher-list .thgn-03 {background-image:url('/src/assets/img/teacher/tch-thgn-03.png');}
-.teacher-list .thgn-04 {background-image:url('/src/assets/img/teacher/tch-thgn-04.png');}
-.teacher-list .thgn-05 {background-image:url('/src/assets/img/teacher/tch-thgn-05.png');}
-.teacher-list .thgn-06 {background-image:url('/src/assets/img/teacher/tch-thgn-06.png');}
-.teacher-list .thgn-07 {background-image:url('/src/assets/img/teacher/tch-thgn-07.png');}
-.teacher-list .thgn-08 {background-image:url('/src/assets/img/teacher/tch-thgn-08.png');}
-.teacher-list .thgn-09 {background-image:url('/src/assets/img/teacher/tch-thgn-09.png');}
-.teacher-list .thgn-10 {background-image:url('/src/assets/img/teacher/tch-thgn-10.png');}
-.teacher-list .thgn-11 {background-image:url('/src/assets/img/teacher/tch-thgn-11.png');}
-.teacher-list .thgn-12 {background-image:url('/src/assets/img/teacher/tch-thgn-12.png');}
-.teacher-list .thgn-13 {background-image:url('/src/assets/img/teacher/tch-thgn-13.png');}
-.teacher-list .thgn-14 {background-image:url('/src/assets/img/teacher/tch-thgn-14.png');}
-.teacher-list .thgn-15 {background-image:url('/src/assets/img/teacher/tch-thgn-15.png');}
-.teacher-list .thgn-16 {background-image:url('/src/assets/img/teacher/tch-thgn-16.png');}
-.teacher-list .thgn-17 {background-image:url('/src/assets/img/teacher/tch-thgn-17.png');}
-.teacher-list .thgn-18 {background-image:url('/src/assets/img/teacher/tch-thgn-18.png');}
-.teacher-list .thbs-01 {background-image:url('/src/assets/img/teacher/tch-thbs-01.png');}
-.teacher-list .thbs-03 {background-image:url('/src/assets/img/teacher/tch-thbs-03.png');}
-.teacher-list .thbs-04 {background-image:url('/src/assets/img/teacher/tch-thbs-04.png');}
-.teacher-list .thbs-05 {background-image:url('/src/assets/img/teacher/tch-thbs-05.png');}
-.teacher-list .thbs-06 {background-image:url('/src/assets/img/teacher/tch-thbs-06.png');}
-.teacher-list .thbs-08 {background-image:url('/src/assets/img/teacher/tch-thbs-08.png');}
-.teacher-list .thbs-12 {background-image:url('/src/assets/img/teacher/tch-thbs-12.png');}
-.teacher-list .thbs-13 {background-image:url('/src/assets/img/teacher/tch-thbs-13.png');}
-.teacher-list .tch-default {background-image:url('/src/assets/img/teacher/tch-default.png'); background-size:85%; background-position: 12rem bottom;}
+.teacher-list .thgn-01 {background-image:url('/public/teacher/tch-thgn-01.png');}
+.teacher-list .thgn-02 {background-image:url('/public/teacher/tch-thgn-02.png');}
+.teacher-list .thgn-03 {background-image:url('/public/teacher/tch-thgn-03.png');}
+.teacher-list .thgn-04 {background-image:url('/public/teacher/tch-thgn-04.png');}
+.teacher-list .thgn-05 {background-image:url('/public/teacher/tch-thgn-05.png');}
+.teacher-list .thgn-06 {background-image:url('/public/teacher/tch-thgn-06.png');}
+.teacher-list .thgn-07 {background-image:url('/public/teacher/tch-thgn-07.png');}
+.teacher-list .thgn-08 {background-image:url('/public/teacher/tch-thgn-08.png');}
+.teacher-list .thgn-09 {background-image:url('/public/teacher/tch-thgn-09.png');}
+.teacher-list .thgn-10 {background-image:url('/public/teacher/tch-thgn-10.png');}
+.teacher-list .thgn-11 {background-image:url('/public/teacher/tch-thgn-11.png');}
+.teacher-list .thgn-12 {background-image:url('/public/teacher/tch-thgn-12.png');}
+.teacher-list .thgn-13 {background-image:url('/public/teacher/tch-thgn-13.png');}
+.teacher-list .thgn-14 {background-image:url('/public/teacher/tch-thgn-14.png');}
+.teacher-list .thgn-15 {background-image:url('/public/teacher/tch-thgn-15.png');}
+.teacher-list .thgn-16 {background-image:url('/public/teacher/tch-thgn-16.png');}
+.teacher-list .thgn-17 {background-image:url('/public/teacher/tch-thgn-17.png');}
+.teacher-list .thgn-18 {background-image:url('/public/teacher/tch-thgn-18.png');}
+.teacher-list .thbs-01 {background-image:url('/public/teacher/tch-thbs-01.png');}
+.teacher-list .thbs-03 {background-image:url('/public/teacher/tch-thbs-03.png');}
+.teacher-list .thbs-04 {background-image:url('/public/teacher/tch-thbs-04.png');}
+.teacher-list .thbs-05 {background-image:url('/public/teacher/tch-thbs-05.png');}
+.teacher-list .thbs-06 {background-image:url('/public/teacher/tch-thbs-06.png');}
+.teacher-list .thbs-08 {background-image:url('/public/teacher/tch-thbs-08.png');}
+.teacher-list .thbs-12 {background-image:url('/public/teacher/tch-thbs-12.png');}
+.teacher-list .thbs-13 {background-image:url('/public/teacher/tch-thbs-13.png');}
+.teacher-list .tch-default {background-image:url('/public/teacher/tch-default.png'); background-size:85%; background-position: 12rem bottom;}
 .teacher-list .logo img {width:100%;}
 .teacher-list .logo.korean {width:14.1rem; height:3.3rem;}
 .teacher-list .logo.emirates {width:9.3rem; height:3.3rem;}
