@@ -23,7 +23,7 @@ export const teacherList = [
     job: "강사님",
     description: ["대한항공 객실훈련원", "최연소 교육강사 출신", "실무면접관"],
     logo: logoKorean,
-    profileImg: "/src/assets/img/teacher/tch-thgn-01.png",
+    profileImg: "/public/teacher/tch-thgn-01.png",
     logoAlt: "korean",
     career1:[
       "대한항공 객실 훈련원 강사 과정 수료",
@@ -50,7 +50,7 @@ export const teacherList = [
     job: "강사님",
     description: ["대한항공", "아시아나 승무원", "최다 합격생 배출"],
     logo: logoKorean,
-    profileImg: "/src/assets/img/teacher/tch-thgn-02.png",
+    profileImg: "/public/teacher/tch-thgn-02.png",
     logoAlt: "korean",
     career1:[
       "대한항공 국내선 국제선 사무장 (경력 5년)",
@@ -74,7 +74,7 @@ export const teacherList = [
     job: "강사님",
     description: ["주요대학 항공과", "최다 합격생 배출"],
     logo: logoKorean,
-    profileImg: "/src/assets/img/teacher/tch-thgn-03.png",
+    profileImg: "/public/teacher/tch-thgn-03.png",
     logoAlt: "korean",
     career1:[
      "대한항공 객실승무원 (비행경력 3년)",
@@ -100,7 +100,7 @@ export const teacherList = [
     job: "강사님",
     description: ["대한항공 객실승무원", "15년 경력"],
     logo: logoKorean,
-    profileImg: "/src/assets/img/teacher/tch-thgn-04.png",
+    profileImg: "/public/teacher/tch-thgn-04.png",
     logoAlt: "korean"
   },
   {
@@ -110,7 +110,7 @@ export const teacherList = [
     job: "강사님",
     description: ["각 항공사 분석 및", "이미지메이킹", "전문강사"],
     logo: logoKorean,
-    profileImg: "/src/assets/img/teacher/tch-thgn-05.png",
+    profileImg: "/public/teacher/tch-thgn-05.png",
     logoAlt: "korean"
   },
   {
@@ -120,7 +120,7 @@ export const teacherList = [
     job: "강사님",
     description: ["대한항공", "객실승무원(경력7년)"],
     logo: logoKorean,
-    profileImg: "/src/assets/img/teacher/tch-thgn-06.png",
+    profileImg: "/public/teacher/tch-thgn-06.png",
     logoAlt: "korean"
   },
   {
@@ -130,7 +130,7 @@ export const teacherList = [
     job: "강사님",
     description: ["이스타항공", "객실승무원"],
     logo: logoEstar,
-    profileImg: "/src/assets/img/teacher/tch-thgn-07.png",
+    profileImg: "/public/teacher/tch-thgn-07.png",
     logoAlt: "eastar"
   },
   {
@@ -140,7 +140,7 @@ export const teacherList = [
     job: "강사님",
     description: ["아시아나항공", "진에어 동시합격"],
     logo: logoAsiana,
-    profileImg: "/src/assets/img/teacher/tch-thgn-18.png",
+    profileImg: "/public/teacher/tch-thgn-18.png",
     logoAlt: "asiana"
   },
   {
@@ -150,7 +150,7 @@ export const teacherList = [
     job: "강사님",
     description: ["대한항공", "객실승무원(경력16년)"],
     logo: logoKorean,
-    profileImg: "/src/assets/img/teacher/tch-thgn-08.png",
+    profileImg: "/public/teacher/tch-thgn-08.png",
     logoAlt: "korean"
   },
   {
@@ -160,7 +160,7 @@ export const teacherList = [
     job: "강사님",
     description: ["그랜드하얏트", "5성급호텔 호텔리어,", "대한항공 객실승무원"],
     logo: logoKorean,
-    profileImg: "/src/assets/img/teacher/tch-thgn-09.png",
+    profileImg: "/public/teacher/tch-thgn-09.png",
     logoAlt: "korean"
   },
   {
@@ -170,7 +170,7 @@ export const teacherList = [
     job: "강사님",
     description: ["항공사리더쉽", "스피치", "전문강사"],
     logo: logoKorean,
-    profileImg: "/src/assets/img/teacher/tch-thgn-10.png",
+    profileImg: "/public/teacher/tch-thgn-10.png",
     logoAlt: "korean"
   },
   {
@@ -180,7 +180,7 @@ export const teacherList = [
     job: "강사님",
     description: ["취업면접 컨설턴트", "스피치", "전문강사"],
     logo: logoJeju,
-    profileImg: "/src/assets/img/teacher/tch-thgn-11.png",
+    profileImg: "/public/teacher/tch-thgn-11.png",
     logoAlt: "jeju"
   },
   {
@@ -190,7 +190,7 @@ export const teacherList = [
     job: "교육실장",
     description: ["에메레이트항공", "사무장"],
     logo: logoEmirates,
-    profileImg: "/src/assets/img/teacher/tch-thgn-12.png",
+    profileImg: "/public/teacher/tch-thgn-12.png",
     logoAlt: "emirates"
   },
   {
@@ -200,7 +200,7 @@ export const teacherList = [
     job: "강사님",
     description: ["케세이퍼시픽항공사", "객실승무원 경력 31년"],
     logo: logoCathay,
-    profileImg: "/src/assets/img/teacher/tch-thgn-13.png",
+    profileImg: "/public/teacher/tch-thgn-13.png",
     logoAlt: "cathay"
   },
   {
@@ -210,7 +210,7 @@ export const teacherList = [
     job: "강사님",
     description: ["케세이퍼시픽항공사", "객실승무원 경력 28년"],
     logo: logoCathay,
-        profileImg: "/src/assets/img/teacher/tch-thgn-14.png",
+        profileImg: "/public/teacher/tch-thgn-14.png",
     logoAlt: "cathay"
   },
   {
@@ -220,7 +220,7 @@ export const teacherList = [
     job: "강사님",
     description: ["외항사 취업전략과", "실전 1:1피드백", "전문 강사"],
     logo: logoEmirates,
-        profileImg: "/src/assets/img/teacher/tch-thgn-15.png",
+        profileImg: "/public/teacher/tch-thgn-15.png",
     logoAlt: "emirates"
   },
   {
@@ -230,7 +230,7 @@ export const teacherList = [
     job: "강사님",
     description: ["영어인터뷰 및", "영어자문읽기", "전문 강사"],
     logo: logoHainan,
-        profileImg: "/src/assets/img/teacher/tch-thgn-16.png",
+        profileImg: "/public/teacher/tch-thgn-16.png",
     logoAlt: "hainan"
   },
   {
@@ -240,7 +240,7 @@ export const teacherList = [
     job: "강사님",
     description: ["KBS강릉방송국", "아나운서"],
     logo: logoKbs,
-        profileImg: "/src/assets/img/teacher/tch-thgn-17.png",
+        profileImg: "/public/teacher/tch-thgn-17.png",
     logoAlt: "KBS"
   },
 
@@ -252,7 +252,7 @@ export const teacherList = [
     job: "강사님",
     description: ["Live the dream"],
     logo: logoBusan,
-    profileImg: "/src/assets/img/teacher/tch-thbs-01.png",
+    profileImg: "/public/teacher/tch-thbs-01.png",
     logoAlt: "airbusan"
   },
   {
@@ -262,7 +262,7 @@ export const teacherList = [
     job: "강사님",
     description: ["노력과 성실함은", "배신하지 않는다"],
     logo: logoKorean,
-    profileImg: "/src/assets/img/teacher/tch-thbs-02.png",
+    profileImg: "/public/teacher/tch-thbs-02.png",
     logoAlt: "korean",
     isDefault:true
   },
@@ -273,7 +273,7 @@ export const teacherList = [
     job: "강사님",
     description: ["어제와 다른 오늘이", "내일을 만든다"],
     logo: logoKorean,
-    profileImg: "/src/assets/img/teacher/tch-thbs-03.png",
+    profileImg: "/public/teacher/tch-thbs-03.png",
     logoAlt: "korean"
   },
   {
@@ -283,7 +283,7 @@ export const teacherList = [
     job: "강사님",
     description: ["You are going to", "have yourself", "awesome filghts!"],
     logo: logoQatar,
-    profileImg: "/src/assets/img/teacher/tch-thbs-04.png",
+    profileImg: "/public/teacher/tch-thbs-04.png",
     logoAlt: "qatar"
   },
   {
@@ -293,7 +293,7 @@ export const teacherList = [
     job: "강사님",
     description: ["꿈을 꾸고", "간절이 원하면", "꿈은 이루어진다"],
     logo: logoAsiana,
-    profileImg: "/src/assets/img/teacher/tch-thbs-05.png",
+    profileImg: "/public/teacher/tch-thbs-05.png",
     logoAlt: "asiana"
   },
   {
@@ -303,7 +303,7 @@ export const teacherList = [
     job: "강사님",
     description: ["If you dream it,", "you can do it"],
     logo: logoKorean,
-    profileImg: "/src/assets/img/teacher/tch-thbs-06.png",
+    profileImg: "/public/teacher/tch-thbs-06.png",
     logoAlt: "korean"
   },
   {
@@ -313,7 +313,7 @@ export const teacherList = [
     job: "강사님",
     description: ["할 수 있다.", "안 하니까", "안 되는 거다."],
     logo: logo,
-    profileImg: "/src/assets/img/teacher/tch-thbs-07.png",
+    profileImg: "/public/teacher/tch-thbs-07.png",
     logoAlt: "kcrew",
     isDefault:true
   },
@@ -329,7 +329,7 @@ export const teacherList = [
       "지금 여기 존재한다."
     ],
     logo: logo,
-    profileImg: "/src/assets/img/teacher/tch-thbs-08.png",    
+    profileImg: "/public/teacher/tch-thbs-08.png",    
     logoAlt: "kcrew"
   },
   {
@@ -339,7 +339,7 @@ export const teacherList = [
     job: "강사님",
     description: ["Moting will work", "unless you do"],
     logo: logoEmirates,
-    profileImg: "/src/assets/img/teacher/tch-thbs-09.png",    
+    profileImg: "/public/teacher/tch-thbs-09.png",    
     logoAlt: "emirates",
     isDefault:true
   },
@@ -355,7 +355,7 @@ export const teacherList = [
       "남을 돕기 위해서이다."
     ],
     logo: logoEmirates,
-    profileImg: "/src/assets/img/teacher/tch-thbs-10.png",    
+    profileImg: "/public/teacher/tch-thbs-10.png",    
     logoAlt: "emirates",
     isDefault:true
   },
@@ -371,7 +371,7 @@ export const teacherList = [
       "않았을 것이다."
     ],
     logo: logoEmirates,
-    profileImg: "/src/assets/img/teacher/tch-thbs-11.png",    
+    profileImg: "/public/teacher/tch-thbs-11.png",    
     logoAlt: "emirates",
     isDefault:true
   },
@@ -382,7 +382,7 @@ export const teacherList = [
     job: "강사님",
     description: ["꾸준함도 재능이다.", "될 때까지 해보자."],
     logo: logoBusan,
-    profileImg: "/src/assets/img/teacher/tch-thbs-12.png",    
+    profileImg: "/public/teacher/tch-thbs-12.png",    
     logoAlt: "airbusan"
   },
   {
@@ -392,7 +392,7 @@ export const teacherList = [
     job: "강사님",
     description: ["Real", "recognize", "real"],
     logo: logo,
-    profileImg: "/src/assets/img/teacher/tch-thbs-13.png",    
+    profileImg: "/public/teacher/tch-thbs-13.png",    
     logoAlt: "kcrew"
   },
   {
@@ -406,7 +406,7 @@ export const teacherList = [
       "문 일지도 모른다."
     ],
     logo: logoAsiana,
-    profileImg: "/src/assets/img/teacher/tch-thbs-14.png",    
+    profileImg: "/public/teacher/tch-thbs-14.png",    
     logoAlt: "asiana",
     isDefault:true
   }
