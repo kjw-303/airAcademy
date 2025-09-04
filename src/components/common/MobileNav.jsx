@@ -163,6 +163,10 @@ const MobileGnb = ({ isLogin = false, userName = "홍길동" }) => {
     }
   };
 
+  const toggleAccordion = (index) => {
+    setActiveAccordion((prev) => (prev === index ? null : index));
+  };
+
   // 페이지 새로고침/URL 직접 접근 시에도 1depth 맞춰줌
   useEffect(() => {
     // 가장 url이 잘 맞는 메뉴 찾기 (더 긴 url부터)
