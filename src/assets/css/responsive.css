@@ -382,7 +382,7 @@
 
 
 	/* tuition */
-	.customer .container-tuition{margin-bottom:12rem; padding:0;}
+	.customer .container-tuition{margin-bottom:12rem; padding:0 1rem;}
 	.container-tuition {width:100%; margin:6rem 0; padding:0 1rem;}
 	.container-tuition .tuition-section {flex-direction: column;}
 	.tuition-section .tui-control {width:100%; margin-bottom:3rem;}

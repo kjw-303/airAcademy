@@ -38,7 +38,7 @@ import "swiper/css";
     community: [
       { text: "포토존", url: "/gallery" },
       { text: "합격생 리얼성공후기", url: "/airline_cl" },
-      { text: "합격생인터뷰", url: "/interview." },
+      { text: "합격생인터뷰", url: "/interview" },
       { text: "수강생 후기", url: "/eventPOST" },
     ],
     customer: [
@@ -167,16 +167,29 @@ const MobileGnb = ({ isLogin = false, userName = "홍길동" }) => {
     setActiveAccordion((prev) => (prev === index ? null : index));
   };
 
-  // 페이지 새로고침/URL 직접 접근 시에도 1depth 맞춰줌
-  useEffect(() => {
-    // 가장 url이 잘 맞는 메뉴 찾기 (더 긴 url부터)
-    const sorted = [...mainMenus].sort((a, b) => b.url.length - a.url.length);
-    const found = sorted.find(menu => location.pathname.startsWith(menu.url));
-    if (found && found.key !== activeMenu) {
-      setActiveMenu(found.key);
+// 기존 useEffect 대체
+useEffect(() => {
+  // 1) depth2에서 먼저 찾기
+  let resolvedKey = null;
+  for (const [key, items] of Object.entries(menuDepth2)) {
+    if (items.some(item => location.pathname.startsWith(item.url))) {
+      resolvedKey = key;
+      break;
     }
-    // eslint-disable-next-line
-  }, [location.pathname]);
+  }
+
+  // 2) 못 찾으면 mainMenus로 보조 매칭
+  if (!resolvedKey) {
+    const found = [...mainMenus]
+      .sort((a, b) => b.url.length - a.url.length)
+      .find(menu => location.pathname.startsWith(menu.url));
+    resolvedKey = found?.key ?? "about"; // 홈/기타 대비 기본값
+  }
+
+  if (resolvedKey !== activeMenu) setActiveMenu(resolvedKey);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+}, [location.pathname]);
+
 
   return (
     <>
