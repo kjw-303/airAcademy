@@ -27,44 +27,44 @@ const airline_cl = () => {
                     <h3>합격생이 직접 작성한 리얼성공후기</h3>
                     <div className="text02">꿈이 아닌 현실에 한걸음 다가선 당신을 응원합니다.</div>
                 </div>
-            </div>
-            <div className="cont-box">
-                <div className="cmntState">
-                    <div className="container">
-                        <div className="cmntSch">
-                            <form name="searchfrm" method="post" action="">
-                                <ul>
-                                    <li>
-                                        <select name="search" id="select" value={search} onChange={e => setSearch(e.target.value)}>
-                                            <option value="title">제목</option>
-                                        </select>
-                                    </li>
-                                    <li><input type="text" name="strsearch" id="textfield" defaultValue="" /></li>
-                                    <li><button type="button"></button></li>
-                                </ul>
-                            </form>
+                <div className="cont-box">
+                    <div className="cmntState">
+                        <div className="container">
+                            <div className="cmntSch">
+                                <form name="searchfrm" method="post" action="">
+                                    <ul>
+                                        <li>
+                                            <select name="search" id="select" value={search} onChange={e => setSearch(e.target.value)}>
+                                                <option value="title">제목</option>
+                                            </select>
+                                        </li>
+                                        <li><input type="text" name="strsearch" id="textfield" defaultValue="" /></li>
+                                        <li><button type="button"></button></li>
+                                    </ul>
+                                </form>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div className='container brdOther'>
-                    <ul className='postList'>
-                        {reviewInfo.map((p,i) => (
-                            <li key={p.num}>
-                                <a href="#">
-                                    <span className='loca'>{p.loca}</span>
-                                    <h6>No. <span>{p.num}</span></h6>
-                                    <em><img src={Thumn} alt="" /></em>
-                                    <h5>
-                                        <div>{p.name}<span>수강생</span></div>
-                                        {p.review}
-                                    </h5>
-                                    <dl>
-                                        <dd className='date'>{p.data}</dd>
-                                    </dl>
-                                </a>
-                            </li>
-                        ))};
-                    </ul>
+                    <div className='container brdOther'>
+                        <ul className='postList'>
+                            {reviewInfo.map((p,i) => (
+                                <li key={p.num}>
+                                    <a href="#">
+                                        <span className='loca'>{p.loca}</span>
+                                        <h6>No. <span>{p.num}</span></h6>
+                                        <em><img src={Thumn} alt="" /></em>
+                                        <h5>
+                                            <div>{p.name}<span>수강생</span></div>
+                                            {p.review}
+                                        </h5>
+                                        <dl>
+                                            <dd className='date'>{p.data}</dd>
+                                        </dl>
+                                    </a>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
                 </div>
             </div>
 

@@ -54,7 +54,7 @@ const interview = () => {
                                         <h6>{p.data}</h6>
                                     </a>
                                 </li>
-                            ))};
+                            ))}
                         </ul>
                     </div>
                 </div>
