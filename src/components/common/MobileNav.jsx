@@ -46,9 +46,9 @@ import "swiper/css";
       { text: "시간표조회", url: "/timetable" },
       { text: "입시컨설팅", url: "/online" },
       { text: "학부모상담", url: "/feedback" },
-      { text: "지원가능한 대학조회", url: "/search_airline" },
+      { text: "지원가능한 대학조회", url: "/searchAirline" },
       { text: "카톡상담", url: "/kakao" },
-      { text: "수강료안내", url: "/tuition_info" },
+      { text: "수강료안내", url: "/tuitionInfo" },
     ],
   };
 
@@ -103,9 +103,9 @@ import "swiper/css";
         { text: "시간표조회", url: "/timetable" },
         { text: "입시컨설팅", url: "/online" },
         { text: "학부모상담", url: "/feedback" },
-        { text: "지원가능한 대학조회", url: "/search_airline" },
+        { text: "지원가능한 대학조회", url: "/searchAirline" },
         { text: "카톡상담", url: "/kakao" },
-        { text: "수강료안내", url: "/tuition_info" },
+        { text: "수강료안내", url: "/tuitionInfo" },
       ],
     },
   ];

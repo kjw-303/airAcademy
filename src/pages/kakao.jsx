@@ -15,9 +15,9 @@ const kakao = () => {
                     <h3>카톡상담신청</h3>
                     <div className="text02">나에게 맞는 수강료조회를 위해 관심 있는 과정을 체크해주세요.<br/>코리아항공과학원 수강생이 되신다면 이 모든 혜택을 누릴 수 있습니다.</div>
                 </div>
+                {/* 커스텀 배너 */}
+                <CustomBanner/>
             </div>
-            {/* 커스텀 배너 */}
-            <CustomBanner/>
             <div className='container-tuition'>
             {/* 간편수강료 조회 */}
             <TuitionForm />
