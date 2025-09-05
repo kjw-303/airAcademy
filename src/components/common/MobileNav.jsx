@@ -167,6 +167,7 @@ const MobileDepth2 = ({ activeMenu, activeSubPage, onDepth2Click }) => {
 const MobileGnb = ({ isLogin = false, userName = "홍길동" }) => {
   const location = useLocation();
   const navigate = useNavigate();
+  const mainSwiperRef = useRef(null);
 
   // 1depth 메뉴는 Swiper에서만 state 관리
   const [activeMenu, setActiveMenu] = useState("about");
@@ -218,7 +219,20 @@ useEffect(() => {
 
   if (resolvedKey !== activeMenu) setActiveMenu(resolvedKey);
   // eslint-disable-next-line react-hooks/exhaustive-deps
-}, [location.pathname]);
+
+  const sw = mainSwiperRef.current;
+    if (!sw) return;
+
+    const idx = mainMenus.findIndex((m) => m.key === activeMenu);
+    if (idx < 0) return;
+
+    // 스와이퍼 내부 슬라이드 이동
+    sw.slideTo(idx, 0);
+
+    // 브라우저 스크롤 정렬 보정(좌측 정렬)
+    const el = sw.slides[idx];
+    el?.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "start" });
+}, [location.pathname,activeMenu]);
 
 
   return (
@@ -249,7 +263,14 @@ useEffect(() => {
 
         {/* 상단 1depth 메뉴 Swiper */}
         <nav className="mo-gnb">
-          <Swiper slidesPerView={"auto"} className="mognbSwiper">
+          <Swiper slidesPerView="auto"
+            freeMode
+            centeredSlides={false}
+            spaceBetween={8}
+            slidesOffsetBefore={0}
+            slidesOffsetAfter={16}
+            onSwiper={(sw) => (mainSwiperRef.current = sw)}
+            className="mognbSwiper">
             {mainMenus.map((menu) => (
               <SwiperSlide key={menu.key} className={activeMenu === menu.key ? "active" : ""}
               onClick={() => handleMainMenuClick(menu)}>
