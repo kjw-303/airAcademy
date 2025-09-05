@@ -256,9 +256,9 @@
 	.sub-title-area .text01{font-size:1.3rem;}
 	.sub-title-area .text02 {font-size:1.5rem;}
 	.sub-title-area .text02 br {display:none;}
-	.academy-main.sub-pt {padding:23rem 1rem 0;}
+	.academy-main.sub-pt {padding:23rem 1rem 0; overflow: hidden;}
 	.sub-pt {padding:23rem 1rem 0;}
-	.teacher-list .tch-item {background-position: 15rem bottom; height: 25rem; border-radius:2rem;         background-size: 50%;}
+	.teacher-list .tch-item {background-position: 15rem bottom; height: 25rem; border-radius:2rem; background-size: 50%;}
 	.teacher-list .thgn-16{background-position: 4rem bottom;}
 	#popupTch {width:calc(100% - 2rem);}
 	#popupTch .popup-top {height:4rem; padding:0 2rem;}

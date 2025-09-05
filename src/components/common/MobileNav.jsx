@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from "react";
+import React, { useRef,useState,useEffect } from "react";
 import {Link, useLocation, useNavigate } from "react-router-dom"
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -113,16 +113,46 @@ import "swiper/css";
 // 2depth 메뉴 컴포넌트
 const MobileDepth2 = ({ activeMenu, activeSubPage, onDepth2Click }) => {
   const subMenu = menuDepth2[activeMenu] || [];
+  const depth2SwiperRef = useRef(null);
   if (!subMenu.length) return null;
+
+  // 활성 탭이 바뀔 때마다 해당 슬라이드를 왼쪽으로 붙여 이동
+  useEffect(() => {
+    const swiper = depth2SwiperRef.current;
+    if (!swiper) return;
+
+    const idx = subMenu.findIndex((item) =>
+      activeSubPage.startsWith(item.url)
+    );
+    if (idx < 0) return;
+
+    // Swiper 내부 이동 (애니메이션 원하면 300으로)
+    swiper.slideTo(idx, 0);
+
+    // 브라우저 스크롤 정렬(좌측 시작) 보정
+    const slideEl = swiper.slides[idx];
+    slideEl?.scrollIntoView({
+      behavior: "smooth",
+      block: "nearest",
+      inline: "start", // ← 좌측 정렬 포인트
+    });
+  }, [activeMenu, activeSubPage, subMenu]);
 
   return (
     <div className="mo-2dapth">
       <div className="modapthSwiper">
-        <Swiper slidesPerView={"auto"} className="swiper-wrapper">
+        <Swiper slidesPerView="auto"
+          freeMode
+          centeredSlides={false}
+          spaceBetween={8}
+          slidesOffsetBefore={0}
+          slidesOffsetAfter={16}
+          onSwiper={(sw) => (depth2SwiperRef.current = sw)}
+          className="depth2-swiper">
           {subMenu.map((item) => (
             <SwiperSlide
               key={item.url}
-              className={activeSubPage === item.url ? "active" : ""}
+              className={activeSubPage.startsWith(item.url) ? "active" : ""}
             >
               <Link to={item.url} onClick={() => onDepth2Click(item.url)}>{item.text}</Link>
             </SwiperSlide>
